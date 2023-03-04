@@ -1,4 +1,4 @@
-function Movies(){
+function Arrayfunc(){
 
     var Movies = ["Star Wars", "The Amazing Spider man", "The Greatest Showman", "Creed", "The Avengers"];
     console.log(Movies[3]);
@@ -23,9 +23,11 @@ function Movies(){
     }
 }
 
-Movies();
+Arrayfunc();
 
-function car(){
+// console.log(Arrayfunc);
+
+function Objectfunc(){
 
     var car = {
         model: "",
@@ -46,4 +48,6 @@ function car(){
     console.log(car.color);
 }
 
-car();
+Objectfunc();
+
+// console.log(Objectfunc);
